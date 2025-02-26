@@ -1,0 +1,26 @@
+{% extends "sqladmin/edit.html" %}
+{% block tail %}
+<script src="https://cdn.ckeditor.com/ckeditor5/39.0.1/classic/ckeditor.js"></script>
+<script>
+    ClassicEditor
+        .create(document.querySelector('#content'),{
+            ckfinder:
+                {
+                    uploadUrl: "https://api-baraka.ai-softdev.com/news/upload"
+                }
+        })
+        .catch(error => {
+            console.error(error);
+        });
+	ClassicEditor
+        .create(document.querySelector('#content_uz'),{
+            ckfinder:
+                {
+                    uploadUrl: "https://api-baraka.ai-softdev.com/news/upload"
+                }
+        })
+        .catch(error => {
+            console.error(error);
+        });
+</script>
+{% endblock %}

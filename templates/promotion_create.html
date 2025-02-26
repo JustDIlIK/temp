@@ -1,0 +1,29 @@
+{% extends "sqladmin/create.html" %}
+{% block tail %}
+<script src="https://cdn.ckeditor.com/ckeditor5/39.0.1/classic/ckeditor.js"></script>
+<script>
+    document.querySelector('#content').removeAttribute("required");
+    document.querySelector('#content_uz').removeAttribute("required");
+
+    ClassicEditor
+        .create(document.querySelector('#content'),{
+            ckfinder:
+                {
+                    uploadUrl: "https://api-baraka.ai-softdev.com/promotion/upload"
+                }
+        })
+        .catch(error => {
+            console.error(error);
+        });
+	ClassicEditor
+        .create(document.querySelector('#content_uz'),{
+            ckfinder:
+                {
+                    uploadUrl: "https://api-baraka.ai-softdev.com/promotion/upload"
+                }
+        })
+        .catch(error => {
+            console.error(error);
+        });
+</script>
+{% endblock %}

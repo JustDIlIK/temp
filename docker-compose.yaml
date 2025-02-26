@@ -1,0 +1,22 @@
+services:
+  db:
+    container_name: 'baraka_db'
+    image: postgres:16
+    env_file:
+      - .env_prod
+    restart: always
+    volumes:
+      - ./postgres-data:/var/lib/postgresql/data
+  web:
+    container_name: 'baraka_back'
+    build:
+      context: .
+    volumes:
+      - ./uploads:/app/uploads
+    depends_on:
+      - db
+    env_file:
+      - .env_prod
+    ports:
+      - "10123:8000"
+    restart: always
