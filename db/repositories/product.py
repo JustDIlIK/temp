@@ -37,6 +37,16 @@ class ProductRepository(BaseRepository):
                             f"%{filter_by["description"].lower()}%"
                         )
                     )
+					| (
+                        cls.model.title_uz.ilike(
+                            f"%{filter_by["title"].lower()}%"
+                        )
+                    )
+					| (
+                        cls.model.description_uz.ilike(
+                            f"%{filter_by["description"].lower()}%"
+                        )
+                    )
                 )
                 .order_by(cls.model.id.desc())
             )
