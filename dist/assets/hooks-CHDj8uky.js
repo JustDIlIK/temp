@@ -1,1 +1,1 @@
-const a="https://api-baraka.ai-softdev.com/";export{a as g};
+const a="https://backend.barakamarket.uz/";export{a as g};
