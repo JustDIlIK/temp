@@ -1,1 +1,0 @@
-import{_ as t,o,c as s,r as c}from"./index-Dcf8zJJA.js";const r={},n={class:"text-to text-3xl font-obold"};function a(e,l){return o(),s("h2",n,[c(e.$slots,"default")])}const f=t(r,[["render",a]]);export{f as T};

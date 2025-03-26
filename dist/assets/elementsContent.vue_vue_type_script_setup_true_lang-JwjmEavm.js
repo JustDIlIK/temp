@@ -1,1 +1,0 @@
-import{b as t,o as s,c as n,a as o,t as a}from"./index-BL_Ks7db.js";const r={class:"w-full rounded-xl h-[300px] bg-white flex justify-center items-center"},c={class:"font-oregular"},p=t({__name:"elementsContent",props:{defaultText:String},setup(e){return(l,i)=>(s(),n("div",r,[o("p",c,a(e.defaultText),1)]))}});export{p as _};

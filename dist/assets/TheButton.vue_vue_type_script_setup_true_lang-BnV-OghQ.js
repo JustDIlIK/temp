@@ -1,1 +1,0 @@
-import{b as t,o,c as n,r as s,n as r}from"./index-Dcf8zJJA.js";const a=["type"],i=t({__name:"TheButton",props:{type:{},t:{}},setup(p){return(e,l)=>(o(),n("button",{type:e.t,class:r({"!bg-to text-white font-osemibold tracking-wider rounded-lg":e.type==="btnOrange","bg-ty font-osemibold rounded-[10px]":e.type==="btnYellow"})},[s(e.$slots,"default")],10,a))}});export{i as _};
