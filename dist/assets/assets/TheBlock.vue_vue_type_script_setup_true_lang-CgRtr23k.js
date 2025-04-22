@@ -1,0 +1,1 @@
+import{b as t,o as a,c as s,r as l,n as r}from"./index-BSfVlLMN.js";const p=t({__name:"TheBlock",props:{blockStyle:{type:String,default:""}},setup(e){return(o,n)=>(a(),s("div",{class:r(["bg-white shadow-[0px_1px_20px_-0px_rgba(0,0,0,0.1)]",e.blockStyle])},[l(o.$slots,"default")],2))}});export{p as _};

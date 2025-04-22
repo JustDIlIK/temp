@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as c}from"./index-Dcf8zJJA.js";const o={};function s(n,r){return c(),t("div",null," Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, voluptas. ")}const a=e(o,[["render",s]]);export{a as default};
