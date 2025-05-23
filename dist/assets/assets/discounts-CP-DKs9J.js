@@ -1,1 +1,0 @@
-import{_ as e}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{c as o,o as t}from"./index-BNp5SeNe.js";const c={};function r(s,n){return t(),o("div",null," Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, voluptas. ")}const m=e(c,[["render",r]]);export{m as default};
