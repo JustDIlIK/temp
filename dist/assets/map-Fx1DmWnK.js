@@ -1,0 +1,1 @@
+import{d as e}from"./index-prGbYgSX.js";import{a as s}from"./global-DzIesz7D.js";const r=e("useMap",{state:()=>({shop:[],currentMarkerId:0,setCenter:[],center:[]}),getters:{get_all_shop:t=>t.shop},actions:{async loadAllShop(){await s.get("shop/",{}).then(t=>{this.shop=t.data,this.setCenter=[this.shop[0].latitude,this.shop[0].longitude]})}}});export{r as u};
